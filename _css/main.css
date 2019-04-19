@@ -12,7 +12,6 @@ body {
     background-size: cover;
 }
 
-
 .img-fundo {
     display: table;
     width: 100%;
@@ -33,17 +32,43 @@ h1 {
 
 h4{
     font-size: 40px;
-    margin: 35px 6px;
+    margin: 20px 6px;
+}
+
+.btn-custom {
+    margin: 20px 0;
+    color: #fff;
+    border-radius: 50px;
+    border: solid 1px #fff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+
+}
+
+.btn-custom:hover {
+    background-color: #fff;
+    color: #1D9FFF;
+}
+
+a.social {
+    font-size: 20px;
 }
 
 a {
     color:#fff;
-    font-size: 20px;
     margin: 0px 5px;
     transition: 500ms;
 }
 
 a:hover {
-    color: #ff4169;
+    color: #1D9FFF;;
     transition: 500ms;
 }
+
+@media screen and (max-width: 767px){
+    a.social {
+        font-size: 30px;
+    }
+}
+
+
