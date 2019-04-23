@@ -15,6 +15,24 @@ p {
     font-size: 13pt;
 }
 
+.btn-custom {
+    margin: 20px 0;
+    background-color: #1D9FFF;
+    color: #fff;
+    border-radius: 50px;
+    border: solid 1px #fff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    transition: 500ms;
+
+}
+
+.btn-custom:hover {
+    background-color: #fff;
+    color: #1D9FFF;
+    transition: 500ms;
+}
+
 span {
     font-size: 21pt;
     font-weight: bold;
