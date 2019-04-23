@@ -1,0 +1,21 @@
+.spotify {
+    margin-top: 50px;
+}
+
+.texto {
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #1D9FFF;
+    font-weight: bold;
+}
+
+p {
+    font-size: 13pt;
+}
+
+span {
+    font-size: 21pt;
+    font-weight: bold;
+}
